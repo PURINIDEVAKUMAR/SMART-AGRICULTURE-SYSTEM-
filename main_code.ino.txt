@@ -1,0 +1,27 @@
+// Smart Agriculture System - Placeholder Code
+// Author: Purini Devakumar
+// B.tech(ECE),A1 Global Institute Of Engineering &Technology 
+
+void setup() {
+  // Initialize sensors and outputs
+  Serial.begin(9600);
+  Serial.println("Smart Agriculture System initialized.");
+}
+
+void loop() {
+  // Placeholder: Read sensor data
+  int soilMoisture = 0; // Replace with actual sensor reading
+  int temperature = 0;  // Replace with actual sensor reading
+
+  // Placeholder: Control irrigation pump
+  if (soilMoisture < 300) {
+    Serial.println("Pump ON - Soil is dry");
+  } else {
+    Serial.println("Pump OFF - Soil is wet");
+  }
+
+  // Placeholder: Send data to IoT platform
+  Serial.println("Sending data to IoT platform...");
+
+  delay(5000); // Wait 5 seconds before next reading
+}

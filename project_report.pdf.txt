@@ -1,0 +1,15 @@
+Smart Agriculture System - Placeholder Report
+
+Author: Purini Devakumar
+B.Tech in ECE | M.Tech in Signal Processing & Communication, IIT Indore
+
+Project Overview:
+This project automates irrigation and monitors soil and weather conditions using sensors and IoT.
+
+Technologies Used:
+Arduino / NodeMCU, Soil Moisture Sensor, DHT11, Relay Module, IoT Platform
+
+Results:
+- Real-time monitoring
+- Automated irrigation control
+- Water usage optimization
